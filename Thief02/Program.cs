@@ -11,7 +11,7 @@ namespace Thief02
         static void Main()
         {
             int a, b, c, d = 0; // The four numbers
-
+            Console.WriteLine("ALSKDJFLAKSJDHFL");
 
         }
     }
