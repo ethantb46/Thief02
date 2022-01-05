@@ -8,8 +8,11 @@ namespace Thief02
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            int a, b, c, d = 0; // The four numbers
+
+
         }
     }
 }
