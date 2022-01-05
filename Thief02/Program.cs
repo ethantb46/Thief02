@@ -20,19 +20,24 @@ combination more than once.
 
             List<string> combinations = new List<string>();
 
-            string a, b, c, d = 0; // The four numbers
+            string a = "0", b = "0", c = "0", d = "0"; // The four numbers
             Console.WriteLine("ALSKDJFLAKSJDHFL");
+
+
             for (int i = 0; i <= 3; i++)
             {
                 //***a, ***b, ***c, ***d, for each value of **a*, etc.
-                a + b + c + d
-                a + b + d + c
-                a + c + b + d
-                a + c + d + b
+                string comb1 = a + b + c + d;
+                string comb2 = a + b + d + c;
+                string comb3 = a + c + b + d;
+                string comb4 = a + c + d + b;
+                string comb5 = a + d + b + c;
+                string comb6 = a + d + c + b;
 
+                combinations.Add(comb1); combinations.Add(comb2); combinations.Add(comb3); combinations.Add(comb4); combinations.Add(comb5); combinations.Add(comb6);
                 // using System.Collections.Generic;
 
-                
+
             }
 
         }
