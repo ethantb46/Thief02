@@ -20,9 +20,12 @@ combination more than once.
 
             List<string> combinations = new List<string>();
 
-            string a = "0", b = "0", c = "0", d = "0"; // The four numbers
-            Console.WriteLine("ALSKDJFLAKSJDHFL");
-
+            string a = "0", b = "0", c = "0", d = "0", e = "0"; // The four numbers
+            Console.WriteLine("The next four line are the values for a, b, c, and d");
+            a =Console.ReadLine();
+            b =Console.ReadLine();
+            c =Console.ReadLine();
+            d =Console.ReadLine();
 
             for (int i = 0; i <= 3; i++)
             {
@@ -37,7 +40,14 @@ combination more than once.
                 combinations.Add(comb1); combinations.Add(comb2); combinations.Add(comb3); combinations.Add(comb4); combinations.Add(comb5); combinations.Add(comb6);
                 // using System.Collections.Generic;
 
+                e = d; d = c; c = b; b = a; a = e; // rotates the numbers
 
+            }
+
+            for (int j = 0; j <= 23; j++)
+            {
+                Console.WriteLine(combinations[j]);
+                Console.ReadLine();
             }
 
         }
