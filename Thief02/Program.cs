@@ -47,7 +47,7 @@ combination more than once.
             for (int j = 0; j <= 23; j++)
             {
                 Console.WriteLine(combinations[j]);
-                Console.ReadLine();
+                //Console.ReadLine();
             }
 
         }
